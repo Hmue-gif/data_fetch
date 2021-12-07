@@ -1,0 +1,19 @@
+{
+    "posts" : [
+        {
+            "id" : 1,
+            "title" : "title1",
+            "details" : "lorem espena narj mf"
+        },
+        {
+            "id" : 1,
+            "title" : "title1",
+            "details" : "lorem espena narj mf"
+        },
+        {
+            "id" : 1,
+            "title" : "title1",
+            "details" : "lorem espena narj mf"
+        }
+    ]
+}
