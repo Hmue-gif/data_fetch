@@ -1,6 +1,15 @@
 <template>
-  <h2> {{error}} </h2>
-  <SinglePost :post="post"></SinglePost>
+  <div v-if="error">
+    <h2> {{error}} </h2>
+  </div>
+  
+  <div v-if="post.length>0">
+    <SinglePost :post="post"></SinglePost>
+  </div>
+  
+  <div v-else>
+     loading...
+  </div>
 </template>
 
 <script>
